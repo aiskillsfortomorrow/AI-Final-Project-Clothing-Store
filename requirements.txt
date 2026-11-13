@@ -1,0 +1,14 @@
+# Runtime dependencies for the Streamlit app (Linux / Streamlit Community Cloud).
+# IMPORTANT: after running the Colab notebook, replace the lines for pandas, numpy, scikit-learn,
+# nltk, joblib and tensorflow-cpu with the exact versions printed in reports/requirements_pinned.txt
+# so the saved models load correctly. Pick Python 3.11 or 3.12 in Streamlit "Advanced settings".
+streamlit
+pandas
+numpy
+scikit-learn
+pillow
+nltk
+joblib
+matplotlib
+tensorflow-cpu
+groq
